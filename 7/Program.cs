@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.Write("Введите трехзначное число: ");
-double num=double.Parse(Console.ReadLine());
-double y=num/10;
+int num=int.Parse(Console.ReadLine());
+int y=int%10;
 
 Console.WriteLine($"{y}");
