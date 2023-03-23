@@ -5,11 +5,6 @@
 Console.Clear();
 Console.Write("n:");
 int n = int.Parse(Console.ReadLine());
-/*
-int i = -n;
-while(i < n+1){
-    i++; <=> i = i + 1 <=> i += 1
-}*/
 for (int i = -n; i < n + 1;i++){
      Console.Write($"{i} ");
 }
