@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+Console.Clear();
 Console.Write("a:");
 int a = int.Parse(Console.ReadLine());
 Console.Write("b:");
@@ -11,3 +12,9 @@ if(Math.Pow(b,2) == a)
 {
     Console.WriteLine("а не квадрат b");
 }
+
+/*3. Напишите программу, которая будет выдавать название 
+дня недели по заданному номеру.
+
+3 -> Среда
+5 ->  Пятница*/
