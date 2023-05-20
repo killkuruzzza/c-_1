@@ -5,6 +5,10 @@
 Console.Clear();
 Console.Write("n:");
 int n = int.Parse(Console.ReadLine());
+//проверяем n на знак по модулю. Если введено отрицательное число то знак меняем.
+if(n < 0){
+     n = -n;
+}
 for (int i = -n; i < n + 1;i++){
      Console.Write($"{i} ");
 }
